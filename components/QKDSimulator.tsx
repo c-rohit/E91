@@ -647,7 +647,7 @@ export default function QKDSimulator() {
         </a>
         <div className="topbar-right">
           <span className="live-indicator"><i />SIMULATOR ONLINE</span>
-          <span className="version-tag">v1.01</span>
+          <span className="version-tag">v1.02</span>
         </div>
       </header>
 
@@ -1039,7 +1039,7 @@ export default function QKDSimulator() {
           <span>Statistical Bell-pair simulation · Educational security check · NOT a loophole-free Bell test</span>
         </div>
         <div className="footer-attribution">
-          <span>Designed &amp; Developed by Rohit C</span>
+          <span>Designed &amp; Developed by <span className="footer-name">Rohit C</span></span>
           <div className="footer-contact">
             <a href="https://www.rohitc.in" target="_blank" rel="noreferrer">www.rohitc.in</a>
             <span aria-hidden="true">|</span>

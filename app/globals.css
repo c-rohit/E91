@@ -1515,6 +1515,10 @@ td {
   gap: 6px;
 }
 
+.footer-name {
+  color: var(--cyan);
+}
+
 .footer-contact {
   justify-content: center;
 }
