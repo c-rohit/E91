@@ -1,4 +1,4 @@
-# Entanglement Lab
+# E91丨QKD Simulator
 
 An interactive Next.js simulator for entanglement-based quantum key
 distribution. It models correlated and anticorrelated Bell-pair measurements,
