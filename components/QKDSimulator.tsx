@@ -647,13 +647,13 @@ export default function QKDSimulator() {
         </a>
         <div className="topbar-right">
           <span className="live-indicator"><i />SIMULATOR ONLINE</span>
-          <span className="version-tag">v1.0</span>
+          <span className="version-tag">v1.01</span>
         </div>
       </header>
 
       <section className="intro-row">
         <div>
-          <div className="eyebrow">QUANTUM OPTICAL COMMUNICATION</div>
+          <div className="eyebrow">ARTUR EKERT · 1991</div>
           <h1>Quantum Key Distribution <em>Simulator</em></h1>
           <p>Transmit entangled photon pairs, compare measurement bases, and test the sifted key for interception.</p>
         </div>
@@ -1035,8 +1035,17 @@ export default function QKDSimulator() {
       </details>
 
       <footer className="page-footer">
-        <span>E91 / ENTANGLEMENT-BASED QKD MODEL</span>
-        <span>Statistical Bell-pair simulation · educational security check · not a loophole-free Bell test</span>
+        <div className="footer-description">
+          <span>Statistical Bell-pair simulation · Educational security check · NOT a loophole-free Bell test</span>
+        </div>
+        <div className="footer-attribution">
+          <span>Designed &amp; Developed by Rohit C</span>
+          <div className="footer-contact">
+            <a href="https://www.rohitc.in" target="_blank" rel="noreferrer">www.rohitc.in</a>
+            <span aria-hidden="true">|</span>
+            <a href="mailto:official@rohitc.in">official@rohitc.in</a>
+          </div>
+        </div>
       </footer>
     </main>
   );

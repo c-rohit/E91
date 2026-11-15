@@ -1489,11 +1489,44 @@ td {
 
 .page-footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   gap: 15px;
   padding: 21px 2px 0;
   color: #59697e;
   font-size: 8px;
+}
+
+.footer-description,
+.footer-attribution,
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 15px;
+}
+
+.footer-description {
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-attribution {
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-contact {
+  justify-content: center;
+}
+
+.footer-contact a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: #36c5d5;
+  text-decoration: underline;
 }
 
 @keyframes photon-to-alice {
